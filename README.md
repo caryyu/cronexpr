@@ -68,11 +68,11 @@ Other details
 Install
 -------
 ```sh
-go install github.com/fentas/cronexpr
+GO111MODULE=on go install github.com/caryyu/cronexpr
 ```
 Or download binary:
 ```sh
-curl -sL -o /usr/local/bin/cronexpr "https://github.com/fentas/cronexpr/releases/download/0.1.0/cronexpr"
+curl -sL -o /usr/local/bin/cronexpr "https://github.com/caryyu/cronexpr/releases/download/0.1.0/cronexpr"
 chmod +x /usr/local/bin/cronexpr
 ```
 
